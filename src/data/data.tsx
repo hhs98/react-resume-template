@@ -11,7 +11,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -69,18 +68,17 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Hasibul Hasan Siju.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Bangladesh based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">SupplyLine Limited</strong> helping build a product to make life easier for small shop owners around bangladesh.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me learning new stuffs on <strong className="text-stone-100">The Internet</strong>,
+        riding my <strong className="text-stone-100">motorcycle</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Bangladesh</strong>.
       </p>
     </>
   ),
@@ -104,16 +102,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm a Full Stack Software Engineer based in Dhaka, Bangladesh specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Nikunja, Dhaka', Icon: MapIcon},
+    {label: 'Age', text: '26', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Bangladeshi', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Tech News, Keyboards', Icon: SparklesIcon},
+    {label: 'Study', text: 'Daffodil International University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'SupplyLine, ltd.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -126,14 +122,14 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
+        level: 9,
+      },
+      {
+        name: 'Bengali',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
+        name: 'Hindi',
         level: 3,
       },
     ],
@@ -142,15 +138,15 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
+        name: 'Javascript',
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'React',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'Typescript',
         level: 6,
       },
     ],
@@ -159,33 +155,33 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Python',
+        level: 7,
+      },
+      {
+        name: 'Django',
         level: 8,
       },
       {
-        name: 'Rust',
+        name: 'Pytest',
         level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Others',
     skills: [
       {
-        name: 'React Native',
+        name: 'Docker',
         level: 9,
       },
       {
-        name: 'Flutter',
+        name: 'Continuos Integration/ Continuos Deployment',
         level: 4,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Version Control',
+        level: 7,
       },
     ],
   },
@@ -196,69 +192,69 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Spread Smile',
+    description: 'A charity website for helping people in need.',
+    url: '#',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Kakatua',
+    description: 'An online library for lending books.',
+    url: '#',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'BShopper',
+    description: 'Shopping malls navigation app.',
+    url: '#',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Case Manager',
+    description: 'A case management app for lawyers and law firms.',
+    url: '#',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'ToLetBD',
+    description: 'A website for finding apartments for rent.',
+    url: '#',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'BrightSkiils',
+    description: 'An online platform for learning new skills.',
+    url: '#',
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Oditiya/Efast Courier',
+    description: 'A courier service app for sending and keeping track of parcels.',
+    url: '#',
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Apple Gadgets',
+    description: 'An online store for buying tech products.',
+    url: '#',
     image: porfolioImage8,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'QPos',
+    description: 'A point of sale app for small to large shop owners.',
+    url: '#',
     image: porfolioImage9,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'SupplyLine',
+    description: 'A b2b ecommerce platform for small shop owners.',
+    url: '#',
     image: porfolioImage10,
   },
   {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Spiro',
+    description: 'An educational platform for learning new skills.',
+    url: '#',
     image: porfolioImage11,
   },
 ];
@@ -268,40 +264,36 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'February 2021',
+    location: 'Daffofil International University',
+    title: 'Bachelor of Science in Software Engineering',
+    content: <p>Started programming career with C++ and Java. Learned about data structures and algorithms.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'March 2021 - Present',
+    location: 'SupplyLine Ltd.',
+    title: 'Software Engineer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+        <li># Developed a b2b ecommerce platform for small shop owners.</li>
+        <li># Worked with cutting edge technologies like React, Django, Docker, AWS, etc.</li>
+        <li># Leading team of 5 people.</li>
+      </ul>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'March 2021 - July 2023',
+    location: 'Qtec Solution Ltd.',
+    title: 'Software Engineer',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+        <li># Started career in Django</li>
+        <li># Sole duty was to develop REST APIs and admin dashboard</li>
+        <li># Worked in a team of 25 people.</li>
+      </ul>
     ),
   },
 ];
@@ -313,20 +305,20 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Asiqur Baig',
+      text: 'Siju has the passion to solve a problem. Everytime I have come up with a new problem and he never gets frustrated and he tries to solve my problem.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
+    }
+    // {
+    //   name: 'Jane Doe',
+    //   text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+    // },
+    // {
+    //   name: 'Someone else',
+    //   text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+    // },s
   ],
 };
 
@@ -336,27 +328,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'If you have any questions or want to contact me, please fill out the form below.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
+      text: 'hhsiju97@gmail.com',
       href: 'mailto:reachout@timbaker.me',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
+      text: 'Nikunja, Dhaka',
       href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@hasansiju',
+      href: 'https://www.instagram.com/hasansiju/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'hhs98',
+      href: 'https://github.com/hhs98',
     },
   ],
 };
@@ -365,9 +357,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/hhs98'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/hasibul-hasan-siju/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/hasansiju/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/SkinnySiju'},
 ];
