@@ -4,6 +4,7 @@ import {useRouter} from 'next/router';
 import {memo, PropsWithChildren} from 'react';
 
 import {HomepageMeta} from '../../data/dataDef';
+import bikeImage from '../../images/bike.webp';
 
 const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, description}) => {
   const {asPath: pathname} = useRouter();
@@ -26,7 +27,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content={title} property="og:title" />
         <meta content={description} property="og:description" />
         <meta content="website" property="og:type" />
-        <meta content="../../images/bike.webp" property="og:image" />
+        <meta content={bikeImage} property="og:image" />
         <meta content={`https://hasibul.me${pathname}`} property="og:url" />
 
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
@@ -36,7 +37,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content="https://hasibul.me" name="twitter:url" />
         <meta content={title} name="twitter:title" />
         <meta content={description} name="twitter:description" />
-        <meta content="../../images/bike.webp" name="twitter:image" />
+        <meta content={bikeImage} name="twitter:image" />
       </Head>
       {children}
     </>
