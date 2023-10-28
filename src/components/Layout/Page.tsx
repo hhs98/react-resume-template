@@ -26,7 +26,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content={title} property="og:title" />
         <meta content={description} property="og:description" />
         <meta content="website" property="og:type" />
-        <meta content="../../images/bike.jpg" property="og:image" />
+        <meta content="../../images/bike.webp" property="og:image" />
         <meta content={`https://hasibul.me${pathname}`} property="og:url" />
 
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
@@ -36,7 +36,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content="https://hasibul.me" name="twitter:url" />
         <meta content={title} name="twitter:title" />
         <meta content={description} name="twitter:description" />
-        <meta content="../../images/bike.jpg" name="twitter:image" />
+        <meta content="../../images/bike.webp" name="twitter:image" />
       </Head>
       {children}
     </>
