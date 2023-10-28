@@ -26,7 +26,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content={title} property="og:title" />
         <meta content={description} property="og:description" />
         <meta content="website" property="og:type" />
-        <meta content="https://scontent.fdac24-1.fna.fbcdn.net/v/t39.30808-6/270076275_3315867678644637_904333430057222282_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3ke_qt277-EAX-z0N1d&_nc_ht=scontent.fdac24-1.fna&oh=00_AfDUaz2-6FVx_c5O05JkZjodu5y7KI49EwKEKRWKoq9hgg&oe=654171BA" property="og:image" />
+        <meta content="../../images/bike.jpg" property="og:image" />
         <meta content={`https://hasibul.me${pathname}`} property="og:url" />
 
         {/* Twitter: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup */}
@@ -36,7 +36,7 @@ const Page: NextPage<PropsWithChildren<HomepageMeta>> = memo(({children, title, 
         <meta content="https://hasibul.me" name="twitter:url" />
         <meta content={title} name="twitter:title" />
         <meta content={description} name="twitter:description" />
-        <meta content="https://scontent.fdac24-1.fna.fbcdn.net/v/t39.30808-6/270076275_3315867678644637_904333430057222282_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3ke_qt277-EAX-z0N1d&_nc_ht=scontent.fdac24-1.fna&oh=00_AfDUaz2-6FVx_c5O05JkZjodu5y7KI49EwKEKRWKoq9hgg&oe=654171BA" name="twitter:image" />
+        <meta content="../../images/bike.jpg" name="twitter:image" />
       </Head>
       {children}
     </>
