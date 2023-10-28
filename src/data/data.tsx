@@ -43,8 +43,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Hasibul Hasan Siju | Full Stack Software Engineer',
+  description: "I'm a Bangladesh based Full Stack Software Engineer, currently working at SupplyLine Limited helping build a product to make life easier for small shop owners around bangladesh.",
 };
 
 /**
@@ -273,7 +273,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2021 - Present',
+    date: 'June 2023 - Present',
     location: 'SupplyLine Ltd.',
     title: 'Software Engineer',
     content: (
@@ -285,7 +285,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2021 - July 2023',
+    date: 'November 2020 - May 2023',
     location: 'Qtec Solution Ltd.',
     title: 'Software Engineer',
     content: (
