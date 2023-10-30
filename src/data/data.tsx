@@ -44,7 +44,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Hasibul Hasan Siju | Full Stack Software Engineer',
-  description: "I'm a Bangladesh based Full Stack Software Engineer, currently working at SupplyLine Limited helping build a product to make life easier for small shop owners around bangladesh.",
+  description: "I'm a Bangladesh based Full Stack Software Engineer, currently working at Jobmedia helping build a product to make life easier for job seekers and job provider around bangladesh.",
 };
 
 /**
@@ -73,7 +73,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Bangladesh based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">SupplyLine Limited</strong> helping build a product to make life easier for small shop owners around bangladesh.
+        at <strong className="text-stone-100">Jobmedia</strong> helping build a product to make life easier for job seekers and job providers in bangladesh.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me learning new stuffs on <strong className="text-stone-100">The Internet</strong>,
@@ -102,7 +102,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm a Full Stack Software Engineer based in Dhaka, Bangladesh specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.`,
+  description: `I'm a seasoned Software Engineer based in Dhaka, Bangladesh specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.`,
   aboutItems: [
     {label: 'Location', text: 'Nikunja, Dhaka', Icon: MapIcon},
     {label: 'Age', text: '26', Icon: CalendarIcon},
@@ -240,7 +240,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage8,
   },
   {
-    title: 'QPos',
+    title: 'PosNinja',
     description: 'A point of sale app for small to large shop owners.',
     url: '#',
     image: porfolioImage9,
@@ -273,26 +273,25 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'June 2023 - Present',
-    location: 'SupplyLine Ltd.',
+    date: 'October 2022 - Present',
+    location: 'Jobmedia',
     title: 'Software Engineer',
     content: (
       <ul>
-        <li># Developed a b2b ecommerce platform for small shop owners.</li>
-        <li># Worked with cutting edge technologies like React, Django, Docker, AWS, etc.</li>
-        <li># Leading team of 5 people.</li>
+        <li>• Significantly improved user engagement by developing and maintaining enterprise-level web applications using Python, Django, and React. This led to a 20% increase in user interaction, resulting in higher customer satisfaction and improved application performance.</li>
+        <li>• Fostered cross-functional synergy by actively collaborating with team members, driving knowledge sharing.</li>
+        <li>• Harnessed AWS to deploy code to production, ensuring peak system performance and unwavering reliability. This strategy led to 99.9% uptime and streamlined application scalability.</li>
       </ul>
     ),
   },
   {
-    date: 'November 2020 - May 2023',
-    location: 'Qtec Solution Ltd.',
+    date: 'November 2020 - September 2022',
+    location: 'Trektil',
     title: 'Software Engineer',
     content: (
       <ul>
-        <li># Started career in Django</li>
-        <li># Sole duty was to develop REST APIs and admin dashboard</li>
-        <li># Worked in a team of 25 people.</li>
+        <li>• Developed, tested, and implemented software solutions in accordance with design specifications, following established coding standards and practices.</li>
+        <li>• Conducted thorough requirement analysis and consistently met project deadlines by providing accurate estimations.</li>
       </ul>
     ),
   },
