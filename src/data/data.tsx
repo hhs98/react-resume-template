@@ -44,7 +44,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Hasibul Hasan Siju | Full Stack Software Engineer',
-  description: "I'm a Bangladesh based Full Stack Software Engineer, currently working at Jobmedia helping build a product to make life easier for job seekers and job provider around bangladesh.",
+  description: "I'm a Bangladesh based Full Stack Software Engineer, currently working at SupplyLine helping build a product to make life easier for job seekers and job provider around bangladesh.",
 };
 
 /**
@@ -273,8 +273,8 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'October 2022 - Present',
-    location: 'Jobmedia',
+    date: 'June 2023 - Present',
+    location: 'SupplyLine',
     title: 'Software Engineer',
     content: (
       <ul>
@@ -285,8 +285,8 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'November 2020 - September 2022',
-    location: 'Trektil',
+    date: 'November 2020 - May 2023',
+    location: 'Qtec Solutions Limited',
     title: 'Software Engineer',
     content: (
       <ul>
