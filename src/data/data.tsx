@@ -73,7 +73,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Bangladesh based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Jobmedia</strong> helping build a product to make life easier for job seekers and job providers in bangladesh.
+        at <strong className="text-stone-100">SupplyLine</strong> helping build a product to make life easier for job seekers and job providers in bangladesh.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me learning new stuffs on <strong className="text-stone-100">The Internet</strong>,
